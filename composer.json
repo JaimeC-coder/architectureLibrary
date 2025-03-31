@@ -1,6 +1,8 @@
 {
   "name": "jaimec-coder/architecture_library",
   "description": "Libreria enfocada en la creacion de archivos necesarios para el uso del patron repository",
+  "version": "1.0.0",
+  "type": "library",
   "keywords": [
     "php",
     "library",
