@@ -1,16 +1,13 @@
 {
-  "name": "vendor/architecture_library",
+  "name": "jaimec-coder/architecture_library",
   "description": "Libreria enfocada en la creacion de archivos necesarios para el uso del patron repository",
   "keywords": [
     "php",
     "library",
     "architecture"
   ],
-  "version": "0.1.0",
   "license": "MIT",
   "type": "library",
-  "minimum-stability": "stable",
-  "prefer-stable": true,
   "autoload": {
     "psr-4": {
       "Vendor\\Architecturelibrary\\": "src/"
@@ -23,7 +20,7 @@
     }
   ],
   "require": {
-    "php": "^7.4|^8.0",
+    "php": "^7.1 || ^8.0",
     "illuminate/support": "^8.0|^9.0",
     "illuminate/filesystem": "^8.0|^9.0",
     "illuminate/config": "^8.0|^9.0",
