@@ -6,13 +6,8 @@
     "library",
     "architecture"
   ],
+  "homepage":"https://github.com/JaimeC-coder/architectureLibrary.git",
   "license": "MIT",
-  "type": "library",
-  "autoload": {
-    "psr-4": {
-      "Vendor\\Architecturelibrary\\": "src/"
-    }
-  },
   "authors": [
     {
       "name": "Eduardo",
@@ -25,5 +20,12 @@
     "illuminate/filesystem": "^8.0|^9.0",
     "illuminate/config": "^8.0|^9.0",
     "illuminate/console": "^8.0|^9.0"
-  }
+  },
+  "autoload": {
+    "psr-4": {
+      "Vendor\\Architecturelibrary\\": "src/"
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
 }
