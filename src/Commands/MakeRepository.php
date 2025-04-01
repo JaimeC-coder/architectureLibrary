@@ -2,7 +2,7 @@
 
 namespace Architecturelibrary\Commands;
 
-use Illuminate\Filesystem\Filesystem;
+
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\App;
 
@@ -39,7 +39,7 @@ class MakeRepository extends Command
 
     private function writeFile($path, $content)
     {
-        $filesystem = new Filesystem();
+        $filesystem = new \Illuminate\Filesystem\Filesystem();
         if (!$filesystem->exists(dirname($path))) {
             $filesystem->makeDirectory(dirname($path), 0755, true);
         }

@@ -1,28 +1,22 @@
 {
-  "name": "jaimec-coder/architecture-library",
-  "description": "Libreria enfocada en la creacion de archivos necesarios para el uso del patron repository",
-  "type": "library",
-  "version": "1.0.1",
-  "require": {
-    "php": ">=7.1",
-    "illuminate/support": "^8.0",
-    "illuminate/filesystem": "^8.0",
-    "illuminate/config": "^8.0",
-    "illuminate/console": "^8.0"
-  },
-  "license": "MIT",
-  "autoload": {
-    "psr-4": {
-      "Eduardo\\ArchitectureLibrary\\": "src/"
-    }
-  },
-  "authors": [
-    {
-      "name": "Eduardo Centurion",
-      "email": "centurionjaime@gmail.com"
-    }
-  ] ,
-    "minimum-stability": "stable",
-    "prefer-stable": true
-  
+    "name": "jaimec-coder/architecture-library",
+    "description": "Libreria enfocada en la creacion de archivos necesarios para el uso del patron repository",
+    "type": "library",
+    "require": {
+        "illuminate/filesystem": "^12.4",
+        "illuminate/support": "^12.4",
+        "illuminate/console": "^12.4"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "JaimecCoder\\ArchitectureLibrary\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Eduardo",
+            "email": "centurionjaime@gmail.com"
+        }
+    ]
 }

@@ -3,7 +3,6 @@
 namespace Architecturelibrary\Commands;
 
 use Illuminate\Console\Command;
-use Illuminate\Filesystem\Filesystem;
 use Illuminate\Support\Facades\App;
 class MakeDtos extends Command
 {
@@ -50,7 +49,7 @@ class MakeDtos extends Command
 
     private function writeFile($path, $content)
     {
-        $filesystem = new Filesystem();
+        $filesystem = new \Illuminate\Filesystem\Filesystem();
         if (!$filesystem->exists(dirname($path))) {
             $filesystem->makeDirectory(dirname($path), 0755, true);
         }
