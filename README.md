@@ -1,78 +1,90 @@
-Architecture Library
 
-Descripción
+# Architecture Library for the repository pattern 
+
+Descripcion
 
 Architecture Library es una librería PHP enfocada en la creación automatizada de archivos esenciales para la implementación del patrón Repository en Laravel. A través de comandos Artisan, permite generar repositorios, servicios, DTOs, controladores y otros componentes necesarios para estructurar una aplicación siguiendo este patrón.
 
-Instalación
+
+## Instalación
 
 Para instalar esta librería, usa Composer:
 
-composer require vendor/architecture_library
+```bash
+composer require jaimec-coder/architecture-library
+```
+    
+## Validación
 
 Asegúrate de que la librería esté correctamente registrada en el composer.json de tu proyecto y que el autoload de Composer esté actualizado:
 
+```bash
 composer dump-autoload
-
-Comandos Disponibles
+```
+ 
+## Comandos disponibles
 
 1. Generar una arquitectura completa
 
+```bash
 php artisan make:architecture {name}
+```
 
 Este comando genera todos los archivos relacionados con el patrón Repository para la entidad especificada ({name}). Incluye:
 
-Repositorio (make:repository)
+- Repositorio (make:repository)
 
-Servicio (make:service)
+- Servicio (make:service)
 
-DTO (make:dto)
+- DTO (make:dto)
 
-Controlador (make:controller con --resource y --model)
+- Controlador (make:controller con --resource y --model)
 
-Request (make:request)
+- Request (make:request)
 
-Resource (make:resource)
+- Resource (make:resource)
 
 
 2. Crear un DTO
 
+```bash
 php artisan make:dto {name}
 
+```
 Genera un Data Transfer Object (DTO) en la carpeta app/DTOs/.
 
 3. Crear un Repositorio
 
+```bash
 php artisan make:repository {name}
+```
 
 Crea un repositorio en app/Repositories/. Si no existe, también genera un BaseRepository.php.
 
 4. Crear un Servicio
-
+```bash
 php artisan make:service {name}
-
+```
 Genera un servicio en app/Services/ que interactúa con el repositorio correspondiente.
 
 5. Optimizar la Aplicación
-
+```bash
 php artisan app:optimize
-
+```
 Limpia la caché de la aplicación y optimiza la configuración para mejorar el rendimiento.
 
-Requisitos
+## Support
+Para obtener ayuda, envíe un correo electrónico a centurionjaime@gmail.com.
+## License
 
-PHP ^7.4|^8.0
-
-Laravel ^8.0|^9.0
-
-
-Autor
-
-Eduardo Centurión
-
-📧 centurionjaime@gmail.com
+Este proyecto está bajo la licencia  [MIT](https://choosealicense.com/licenses/mit/)
 
 
-Licencia
+## Authors
 
-Este proyecto está bajo la licencia MIT.
+- [@Eduardo Centurión](https://www.github.com/JaimeC-coder)
+
+
+## Requisitos
+
+- PHP ^7.1
