@@ -1,5 +1,5 @@
 {
-  "name": "JaimeC-coder/architecture-library",
+  "name": "jaimec-coder/architecture-library",
   "description": "Libreria enfocada en la creacion de archivos necesarios para el uso del patron repository",
   "type": "library",
   "require": {
