@@ -2,8 +2,9 @@
   "name": "jaimec-coder/architecture-library",
   "description": "Libreria enfocada en la creacion de archivos necesarios para el uso del patron repository",
   "type": "library",
+  "version": "1.0.0",
   "require": {
-    "php": "^7.1 || ^8.0",
+    "php": ">=7.1",
     "illuminate/support": "^8.0|^9.0",
     "illuminate/filesystem": "^8.0|^9.0",
     "illuminate/config": "^8.0|^9.0",
