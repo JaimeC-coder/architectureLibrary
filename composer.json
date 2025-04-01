@@ -21,5 +21,12 @@
             "name": "Eduardo",
             "email": "centurionjaime@gmail.com"
         }
-    ]
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "JaimecCoder\\ArchitectureLibrary\\Providers\\ArchitectureLibraryServiceProvider"
+            ]
+        }
+    }
 }
