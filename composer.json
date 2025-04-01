@@ -2,7 +2,7 @@
     "name": "jaimec-coder/architecture-library",
     "description": "Libreria enfocada en la creacion de archivos necesarios para el uso del patron repository",
     "type": "library",
-    "version": "2.5.0",
+    "version": "2.6.0",
     "minimum-stability": "stable",
     "prefer-stable": true,
     "require": {
