@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Console\Commands;
+namespace Architecturelibrary\Commands;
 
 use Illuminate\Filesystem\Filesystem;
 use Illuminate\Console\Command;

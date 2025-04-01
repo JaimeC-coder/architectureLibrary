@@ -1,21 +1,7 @@
 {
-  "name": "jaimec-coder/architecture_library",
+  "name": "eduardo/architecture-library",
   "description": "Libreria enfocada en la creacion de archivos necesarios para el uso del patron repository",
-  "version": "1.0.0",
   "type": "library",
-  "keywords": [
-    "php",
-    "library",
-    "architecture"
-  ],
-  "homepage": "https://github.com/JaimeC-coder/architectureLibrary",
-  "license": "MIT",
-  "authors": [
-    {
-      "name": "Eduardo",
-      "email": "centurionjaime@gmail.com"
-    }
-  ],
   "require": {
     "php": "^7.1 || ^8.0",
     "illuminate/support": "^8.0|^9.0",
@@ -23,25 +9,23 @@
     "illuminate/config": "^8.0|^9.0",
     "illuminate/console": "^8.0|^9.0"
   },
+  "license": "MIT",
   "autoload": {
     "psr-4": {
-      "JaimeC\\ArchitectureLibrary\\": "src/"
+      "Eduardo\\ArchitectureLibrary\\": "src/"
     }
   },
-  "extra": {
-    "laravel": {
-      "providers": [
-        "JaimeC\\ArchitectureLibrary\\ArchitectureLibraryServiceProvider"
-      ]
-    }
-  },
-  "minimum-stability": "stable",
-  "prefer-stable": true,
-  "repositories": [
+  "authors": [
     {
-        "type": "vcs",
-        "url": "https://github.com/JaimeC-coder/architectureLibrary"
+      "name": "Eduardo Centurion L",
+      "email": "centurionjaime@gmail.com"
     }
-]
- 
+  ],
+  "keywords": [
+    "laravel",
+    "repository",
+    "architecture",
+    "library",
+    "php"
+  ]
 }

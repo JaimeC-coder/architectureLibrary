@@ -1,11 +1,11 @@
 <?php
 
-namespace MiPaquete\Providers;
+namespace Architecturelibrary\Providers;
 
-use App\Console\Commands\MakeDtos;
-use App\Console\Commands\MakeRepository;
-use App\Console\Commands\MakeService;
-use App\Console\Commands\OptimizeApp;
+use Architecturelibrary\Commands\MakeDtos;
+use Architecturelibrary\Commands\MakeRepository;
+use Architecturelibrary\Commands\MakeService;
+use Architecturelibrary\Commands\OptimizeApp;
 use Architecturelibrary\Commands\MakeArchitecture;
 use Illuminate\Support\ServiceProvider;
 
