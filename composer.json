@@ -17,15 +17,11 @@
   },
   "authors": [
     {
-      "name": "Eduardo Centurion L",
+      "name": "Eduardo Centurion",
       "email": "centurionjaime@gmail.com"
     }
-  ],
-  "keywords": [
-    "laravel",
-    "repository",
-    "architecture",
-    "library",
-    "php"
-  ]
+  ] ,
+    "minimum-stability": "stable",
+    "prefer-stable": true
+  
 }
